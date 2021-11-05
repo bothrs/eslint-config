@@ -1,6 +1,6 @@
 {
   "name": "@bothrs/eslint-config",
-  "version": "0.1.0",
+  "version": "nextRelease.version",
   "description": "ESLint configuration used at Bothrs.",
   "keywords": [
     "eslint",
