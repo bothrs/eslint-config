@@ -1,5 +1,4 @@
 {
-  "pkgRoot": "src",
   "tagFormat": "release/v${version}",
   "branches": [
     "main"
@@ -8,11 +7,16 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    "@semantic-release/npm",
+    [
+      "@semantic-release/npm",
+      {
+        "pkgRoot": "src"
+      }
+    ],
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "npx rjp package.json version <%= nextRelease.version %>"
+        "prepareCmd": "npx rjp package.json version <%= nextRelease.version %> && cp package.json README.md CHANGELOG.md src"
       }
     ],
     [
