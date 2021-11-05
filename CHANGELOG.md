@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/bothrs/eslint-config/compare/release/v1.0.0...release/v1.0.1) (2021-11-05)
+
+
+### Bug Fixes
+
+* **CI:** Add rules to bundle ([7a9122c](https://github.com/bothrs/eslint-config/commit/7a9122cb890d86d9c24f8c90123fd0f7be53b0d3))
+* **CI:** Full build package ([184eba8](https://github.com/bothrs/eslint-config/commit/184eba85e7a11d5e82b4f434983d712fc57a3355))
+* **CI:** semantic-release plugin order ([1281ae9](https://github.com/bothrs/eslint-config/commit/1281ae9f52b7c5ea813e64c437a3e2586b43037d))
+
 # 1.0.0 (2021-11-05)
 
 
