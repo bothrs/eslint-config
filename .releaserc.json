@@ -1,5 +1,4 @@
 {
-  "pkgRoot": "src",
   "tagFormat": "release/v${version}",
   "branches": [
     "main"
@@ -15,7 +14,10 @@
       }
     ],
     [
-      "@semantic-release/npm"
+      "@semantic-release/npm",
+      {
+        "pkgRoot": "./src"
+      }
     ],
     [
       "@semantic-release/git",

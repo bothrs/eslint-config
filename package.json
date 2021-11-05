@@ -14,12 +14,11 @@
   ],
   "main": "index.js",
   "files": [
+    "rules",
     "index.js",
     "jest.js",
-    "react.js",
     "react-native.js",
-    "rules",
-    "src"
+    "react.js"
   ],
   "repository": "git@github.com:bothrs/eslint-config.git",
   "author": {
