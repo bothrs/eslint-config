@@ -1,0 +1,12 @@
+{
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "extends": [
+    "./src",
+    "./src/jest"
+  ],
+  "env": {
+    "node": true
+  }
+}

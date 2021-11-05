@@ -1,8 +1,8 @@
 module.exports = {
   plugins: ['react', 'react-hooks'],
   extends: [
-    require.resolve('../index.js'),
     'plugin:react/recommended',
+    'plugin:react/jsx-runtime', // Assume React 17
     'plugin:react-hooks/recommended',
   ],
   parserOptions: {
