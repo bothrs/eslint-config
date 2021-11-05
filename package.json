@@ -7,15 +7,14 @@
     "eslint-config",
     "bothrs"
   ],
-  "main": "src/index.js",
+  "main": "index.js",
   "files": [
-    "src",
-    "rules"
+    "index.js",
+    "jest.js",
+    "react.js",
+    "react-native.js"
   ],
   "repository": "git@github.com:bothrs/eslint-config.git",
-  "publishConfig": {
-    "registry": "http://localhost:8081/repository/npm-private/"
-  },
   "author": "Fabian Meul <fabian.meul@bothrs.com>",
   "license": "MIT",
   "scripts": {
