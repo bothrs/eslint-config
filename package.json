@@ -1,10 +1,14 @@
 {
   "name": "@bothrs/eslint-config",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "ESLint configuration used at Bothrs.",
-  "private": "false",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "eslint",
+    "eslintconfig",
     "eslint-config",
     "bothrs"
   ],
@@ -16,7 +20,17 @@
     "react-native.js"
   ],
   "repository": "git@github.com:bothrs/eslint-config.git",
-  "author": "Fabian Meul <fabian.meul@bothrs.com>",
+  "author": {
+    "name": "Bothrs",
+    "email": "dev@bothrs.com",
+    "url": "https://bothrs.com"
+  },
+  "contributors": [
+    {
+      "name": "Fabian Meul",
+      "email": "fabian@bothrs.com"
+    }
+  ],
   "license": "MIT",
   "scripts": {
     "lint": "eslint -c ./src/index.js \"./test/**/*\"",
