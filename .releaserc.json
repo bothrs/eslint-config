@@ -7,24 +7,24 @@
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
     "@semantic-release/npm",
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "npx rjp package.json version nextRelease.version"
+        "prepareCmd": "npx rjp package.json version <%= nextRelease.version %>"
       }
     ],
     [
       "@semantic-release/git",
       {
-        "message": "Release <%= nextRelease.version %> [skip ci]",
+        "message": "Release v<%= nextRelease.version %> - <%= new Date().toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n\n<%= nextRelease.notes %>",
         "assets": [
           "package.json",
           "CHANGELOG.md"
         ]
       }
-    ],
-    "@semantic-release/changelog"
+    ]
   ],
   "verifyConditions": [
     "@semantic-release/changelog",
