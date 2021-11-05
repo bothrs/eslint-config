@@ -17,7 +17,8 @@
     "index.js",
     "jest.js",
     "react.js",
-    "react-native.js"
+    "react-native.js",
+    "rules"
   ],
   "repository": "git@github.com:bothrs/eslint-config.git",
   "author": {
@@ -34,7 +35,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint -c ./src/index.js \"./test/**/*\"",
-    "prepare": "cp package.json src"
+    "postversion": "cp package.json README.md CHANGELOG.md src"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
