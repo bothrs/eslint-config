@@ -10,14 +10,11 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "npx rjp package.json version <%= nextRelease.version %> && cp package.json README.md CHANGELOG.md src"
+        "prepareCmd": "npx rjp package.json version <%= nextRelease.version %> && cp -a ./src/. ./"
       }
     ],
     [
-      "@semantic-release/npm",
-      {
-        "pkgRoot": "./src"
-      }
+      "@semantic-release/npm"
     ],
     [
       "@semantic-release/git",
