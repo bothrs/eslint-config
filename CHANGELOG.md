@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/bothrs/eslint-config/compare/release/v1.0.1...release/v1.0.2) (2021-11-05)
+
+
+### Bug Fixes
+
+* **CI:** Release bundle ([9567c8f](https://github.com/bothrs/eslint-config/commit/9567c8f68564b33f97c8cfac34aaa3583e7a8b70))
+* **CI:** Set correct package root ([f83546d](https://github.com/bothrs/eslint-config/commit/f83546d80363480ad00a02a59618fe2d7e7008cc))
+
 ## [1.0.1](https://github.com/bothrs/eslint-config/compare/release/v1.0.0...release/v1.0.1) (2021-11-05)
 
 
