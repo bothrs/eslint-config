@@ -1,4 +1,6 @@
-import React from 'react';
+import path from 'path'
+
+import React from 'react'
 
 import * as Smth from './lint-subject.test'
 
