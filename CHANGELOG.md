@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/bothrs/eslint-config/compare/release/v1.0.2...release/v1.1.0) (2021-11-15)
+
+
+### Bug Fixes
+
+* **import/order:** Handle builtin the same as external ([a86da67](https://github.com/bothrs/eslint-config/commit/a86da67fa32e0ade15eb5f435266cc0f6f724c06))
+
+
+### Features
+
+* **a11y:** Add recommended for react and react-native ([da31c37](https://github.com/bothrs/eslint-config/commit/da31c377b915b6ac8b8ce7a5645d6b4fcbc9d937))
+
 ## [1.0.2](https://github.com/bothrs/eslint-config/compare/release/v1.0.1...release/v1.0.2) (2021-11-05)
 
 
