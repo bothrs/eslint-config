@@ -17,9 +17,18 @@ module.exports = {
       },
     },
   },
-  plugins: ['import', 'prettier', 'sonarjs', '@typescript-eslint'],
+  plugins: [
+    'import',
+    'prettier',
+    'sonarjs',
+    'no-secrets',
+    '@typescript-eslint',
+  ],
   extends: [
     'eslint:recommended',
+
+    // ESLint Comments
+    'plugin:eslint-comments/recommended',
 
     // SonarJS plugin
     'plugin:sonarjs/recommended',
