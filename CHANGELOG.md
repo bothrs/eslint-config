@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/bothrs/eslint-config/compare/release/v1.1.0...release/v1.2.0) (2021-11-16)
+
+
+### Features
+
+* **SonarJS:** Sniff out more code-smell ([6a0cce3](https://github.com/bothrs/eslint-config/commit/6a0cce3677e566c82306112618db719d9376815a))
+
 # [1.1.0](https://github.com/bothrs/eslint-config/compare/release/v1.0.2...release/v1.1.0) (2021-11-15)
 
 
