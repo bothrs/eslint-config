@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/bothrs/eslint-config/compare/release/v1.2.0...release/v1.3.0) (2021-11-16)
+
+
+### Features
+
+* **Rules:** Add no-secrets and eslint-comments plugin ([95ee1a1](https://github.com/bothrs/eslint-config/commit/95ee1a1849fcec19438e2bd19271bf07fc3baa4f))
+
 # [1.2.0](https://github.com/bothrs/eslint-config/compare/release/v1.1.0...release/v1.2.0) (2021-11-16)
 
 
