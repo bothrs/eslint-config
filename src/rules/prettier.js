@@ -8,7 +8,7 @@ module.exports = {
         arrowParens: 'always',
         endOfLine: 'lf',
         printWidth: 80,
-        quoteProps: 'consistent',
+        quoteProps: 'as-needed',
         semi: false,
         singleQuote: true,
         tabWidth: 2,
