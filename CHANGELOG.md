@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/bothrs/eslint-config/compare/release/v1.3.0...release/v1.3.1) (2021-11-18)
+
+
+### Bug Fixes
+
+* **Prettier:** Change `quoteProps` rule to `as-needed` ([7f28c28](https://github.com/bothrs/eslint-config/commit/7f28c280e1b82750c193039bf666575e97570bf9))
+
 # [1.3.0](https://github.com/bothrs/eslint-config/compare/release/v1.2.0...release/v1.3.0) (2021-11-16)
 
 
