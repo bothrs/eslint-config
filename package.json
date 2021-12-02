@@ -72,6 +72,8 @@
     "eslint-plugin-react-native": "^3.11.0",
     "eslint-plugin-react-native-a11y": "^3.0.0",
     "eslint-plugin-sonarjs": "^0.10.0",
+    "eslint-plugin-unicorn": "^39.0.0",
+    "eslint-plugin-woke": "^1.0.0",
     "prettier": "^2.4.1"
   },
   "peerDependencies": {

@@ -13,13 +13,13 @@ module.exports = {
     'import/order': [
       'error',
       {
-        'alphabetize': {
+        alphabetize: {
           order: 'asc',
           caseInsensitive: true,
         },
         'newlines-between': 'always',
-        'warnOnUnassignedImports': true,
-        'pathGroups': [
+        warnOnUnassignedImports: true,
+        pathGroups: [
           {
             pattern: '~*',
             group: 'internal',
@@ -29,7 +29,7 @@ module.exports = {
             group: 'internal',
           },
         ],
-        'groups': [
+        groups: [
           ['external', 'builtin'],
           'internal',
           'index',
