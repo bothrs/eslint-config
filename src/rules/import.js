@@ -1,5 +1,9 @@
 module.exports = {
   rules: {
+    'import/default': 'off',
+    'import/no-default-export': [
+      'error',
+    ],
     'import/extensions': [
       'error',
       'always',
