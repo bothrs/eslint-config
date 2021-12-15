@@ -50,6 +50,7 @@ This ESLint config is a collection of plugins and custom rules.
 - [ESLint-Typescript](https://github.com/typescript-eslint/typescript-eslint)
 - [ESLint-Comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)
 - [ESLint-Import](https://github.com/import-js/eslint-plugin-import)
+- [ESLint-Woke](https://github.com/amwmedia/eslint-plugin-woke)
 - [ESLint-Jest](https://github.com/jest-community/eslint-plugin-jest)
 - [ESLint-Jest-Formatting](https://github.com/dangreenisrael/eslint-plugin-jest-formatting)
 - [ESLint-SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)

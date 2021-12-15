@@ -18,11 +18,13 @@ module.exports = {
     },
   },
   plugins: [
+    '@typescript-eslint',
     'import',
+    'no-secrets',
     'prettier',
     'sonarjs',
-    'no-secrets',
-    '@typescript-eslint',
+    'unicorn',
+    'woke',
   ],
   extends: [
     'eslint:recommended',
@@ -40,6 +42,9 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:import/typescript',
 
+    // Unicorn plugin
+    'plugin:unicorn/recommended',
+
     require.resolve('./rules/import'),
     require.resolve('./rules/typescript'),
     require.resolve('./rules/prettier'),
@@ -48,5 +53,20 @@ module.exports = {
   rules: {
     'sort-keys': 'off', // https://eslint.org/docs/rules/sort-keys
     'sort-vars': ['error'], // https://eslint.org/docs/rules/sort-vars
+
+    // Unicorn
+    'unicorn/prefer-module': 'off',
+    'unicorn/filename-case': [
+      'error',
+      {
+        cases: {
+          kebabCase: true,
+          pascalCase: true,
+        },
+      },
+    ],
+
+    // Woke
+    'woke/profanity': ['error'],
   },
 }
