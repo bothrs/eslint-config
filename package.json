@@ -45,19 +45,19 @@
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.37",
     "dotenv-cli": "^4.1.1",
-    "jest": "^27.4.3",
+    "jest": "^27.4.5",
     "jest-extended": "^1.2.0",
     "react": "^17.0.2",
     "replace-json-property": "^1.8.0",
     "semantic-release": "^18.0.1",
-    "ts-jest": "^27.0.7",
-    "typescript": "^4.5.2"
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.5.4"
   },
   "dependencies": {
     "@react-native-community/eslint-config": "^3.0.1",
-    "@typescript-eslint/eslint-plugin": "5.5.0",
-    "@typescript-eslint/parser": "^5.5.0",
-    "eslint": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.4.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -69,14 +69,15 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-react-native": "^3.11.0",
+    "eslint-plugin-react-native": "^4.0.0",
     "eslint-plugin-react-native-a11y": "^3.0.0",
     "eslint-plugin-sonarjs": "^0.11.0",
     "eslint-plugin-unicorn": "^39.0.0",
     "eslint-plugin-woke": "^1.0.0",
-    "prettier": "^2.5.0"
+    "prettier": "^2.5.1"
   },
   "peerDependencies": {
+    "jest": "27.x",
     "react": "17.x",
     "typescript": "4.x"
   }
