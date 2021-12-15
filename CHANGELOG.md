@@ -1,3 +1,19 @@
+# [1.4.0](https://github.com/bothrs/eslint-config/compare/release/v1.3.1...release/v1.4.0) (2021-12-15)
+
+
+### Bug Fixes
+
+* **CI:** Fix dependency version resolution ([02a3824](https://github.com/bothrs/eslint-config/commit/02a382416d6a23d3e66813deaeed17102e044982))
+* **Import:** no-default-export is now a warning ([4be1ab6](https://github.com/bothrs/eslint-config/commit/4be1ab6ca662de359028c122b9ce21e850bce040))
+* **react-native:** Correct extend of react-native-a11y ([b324572](https://github.com/bothrs/eslint-config/commit/b324572e166e28a2081eaad79365ae3e2ea1bf3f))
+* **yarn:** update lockfile ([66afa16](https://github.com/bothrs/eslint-config/commit/66afa16dac82503f930837ec403a02ad9a771c97))
+
+
+### Features
+
+* Add Woke and Unicorn packages ([1d8cefa](https://github.com/bothrs/eslint-config/commit/1d8cefae7636029d952109994bb4a77dc7440983))
+* **Import:** Don't allow default exports ([8aa16a2](https://github.com/bothrs/eslint-config/commit/8aa16a2a36c8ee57e0149b6a691d66a654283ac1))
+
 ## [1.3.1](https://github.com/bothrs/eslint-config/compare/release/v1.3.0...release/v1.3.1) (2021-11-18)
 
 
