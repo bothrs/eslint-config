@@ -50,7 +50,7 @@ This ESLint config is a collection of plugins and custom rules.
 - [ESLint-Typescript](https://github.com/typescript-eslint/typescript-eslint)
 - [ESLint-Comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)
 - [ESLint-Import](https://github.com/import-js/eslint-plugin-import)
-- [ESLint-Woke](https://github.com/amwmedia/eslint-plugin-woke)
+- [ESLint-Unused-Imports](https://github.com/sweepline/eslint-plugin-unused-imports)
 - [ESLint-Jest](https://github.com/jest-community/eslint-plugin-jest)
 - [ESLint-Jest-Formatting](https://github.com/dangreenisrael/eslint-plugin-jest-formatting)
 - [ESLint-SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)
@@ -61,3 +61,4 @@ This ESLint config is a collection of plugins and custom rules.
 - [ESLint-React-Native](https://github.com/Intellicode/eslint-plugin-react-native)
 - [ESLint-React-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
 - [ESLint-React-Native-a11y](https://github.com/FormidableLabs/eslint-plugin-react-native-a11y)
+- [ESLint-Woke](https://github.com/amwmedia/eslint-plugin-woke)
