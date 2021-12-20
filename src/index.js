@@ -24,6 +24,7 @@ module.exports = {
     'prettier',
     'sonarjs',
     'unicorn',
+    'unused-imports',
     'woke',
   ],
   extends: [
@@ -65,6 +66,11 @@ module.exports = {
         },
       },
     ],
+
+    // Unused Imports
+    '@typescript-eslint/no-unused-vars': 'off', // Disable in favor or unused-imports
+    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-vars': 'warn',
 
     // Woke
     'woke/profanity': ['error'],
