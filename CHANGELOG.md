@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/bothrs/eslint-config/compare/release/v1.4.0...release/v1.5.0) (2021-12-21)
+
+
+### Bug Fixes
+
+* **docs:** Sort eslint plugins in readme ([7ad4741](https://github.com/bothrs/eslint-config/commit/7ad47416c636a937aec82db22a8c4f143d68e434))
+
+
+### Features
+
+* **unused-imports:** Auto-fix unused imports ([b1c9f01](https://github.com/bothrs/eslint-config/commit/b1c9f014b23073b465cfac0708150b43c8f72f03))
+
 # [1.4.0](https://github.com/bothrs/eslint-config/compare/release/v1.3.1...release/v1.4.0) (2021-12-15)
 
 
