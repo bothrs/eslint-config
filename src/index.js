@@ -25,6 +25,7 @@ module.exports = {
     'sonarjs',
     'unicorn',
     'unused-imports',
+    'simple-import-sort',
     'woke',
   ],
   extends: [
@@ -71,6 +72,10 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off', // Disable in favor or unused-imports
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': 'warn',
+
+    // Import order
+    'import/order': 'off',
+    'simple-import-sort': 'warn',
 
     // Woke
     'woke/profanity': ['error'],
