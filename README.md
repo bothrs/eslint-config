@@ -21,6 +21,7 @@ Example `.eslintrc.js` file:
 // .eslintrc.js
 
 module.exports = {
+  type: "module",
   env: {
     es6: true,
     node: true,
