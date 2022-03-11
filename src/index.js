@@ -54,6 +54,19 @@ module.exports = {
   rules: {
     'sort-keys': 'off', // https://eslint.org/docs/rules/sort-keys
     'sort-vars': ['error'], // https://eslint.org/docs/rules/sort-vars
+    'import/order': [
+      'error',
+      {
+        pathGroups: [
+          {
+            pattern: 'react',
+            group: 'builtin',
+            position: 'before',
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['react'],
+      },
+    ],
 
     // Unicorn
     'unicorn/prefer-module': 'off',
@@ -63,6 +76,15 @@ module.exports = {
         cases: {
           kebabCase: true,
           pascalCase: true,
+        },
+      },
+    ],
+    'unicorn/prevent-abbreviations': [
+      'error',
+      {
+        allowList: {
+          Props: true,
+          props: true,
         },
       },
     ],
