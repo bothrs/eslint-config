@@ -56,7 +56,6 @@ module.exports = {
     'sort-vars': ['error'], // https://eslint.org/docs/rules/sort-vars
 
     // Unicorn
-    'unicorn/consistent-destructuring': 'off',
     'unicorn/consistent-function-scoping': 'off',
     'unicorn/no-array-callback-reference': 'off',
     'unicorn/no-array-for-each': 'off',
