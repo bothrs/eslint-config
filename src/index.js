@@ -67,7 +67,15 @@ module.exports = {
     'unicorn/prefer-module': 'off',
     'unicorn/prefer-node-protocol': 'off',
     'unicorn/prefer-object-from-entries': 'off',
-    'unicorn/prevent-abbreviations': 'off',
+    'unicorn/prevent-abbreviations': [
+      'error',
+      {
+        allowList: {
+          Props: true,
+          props: true,
+        },
+      },
+    ],
     'unicorn/filename-case': [
       'error',
       {
