@@ -2,6 +2,7 @@ module.exports = {
   rules: {
     'import/default': 'off',
     'import/no-default-export': ['warn'],
+    'import/no-named-as-default-member': 'off',
     'import/extensions': [
       'error',
       'always',

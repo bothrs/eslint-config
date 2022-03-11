@@ -56,7 +56,25 @@ module.exports = {
     'sort-vars': ['error'], // https://eslint.org/docs/rules/sort-vars
 
     // Unicorn
+    'unicorn/consistent-function-scoping': 'off',
+    'unicorn/no-array-callback-reference': 'off',
+    'unicorn/no-array-for-each': 'off',
+    'unicorn/no-array-reduce': 'off',
+    'unicorn/no-null': 'off',
+    'unicorn/no-useless-undefined': 'off',
+    'unicorn/numeric-separators-style': 'off',
     'unicorn/prefer-module': 'off',
+    'unicorn/prefer-node-protocol': 'off',
+    'unicorn/prefer-object-from-entries': 'off',
+    'unicorn/prevent-abbreviations': [
+      'error',
+      {
+        allowList: {
+          Props: true,
+          props: true,
+        },
+      },
+    ],
     'unicorn/filename-case': [
       'error',
       {
@@ -71,6 +89,9 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off', // Disable in favor or unused-imports
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': 'warn',
+
+    // SonarJS
+    'sonarjs/no-nested-template-literals': 'off',
 
     // Woke
     'woke/profanity': ['error'],
