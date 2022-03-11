@@ -1,3 +1,17 @@
+# [1.6.0](https://github.com/bothrs/eslint-config/compare/release/v1.5.0...release/v1.6.0) (2022-03-11)
+
+
+### Bug Fixes
+
+* **ci:** Allow patch versions for dependencies ([f14e7f9](https://github.com/bothrs/eslint-config/commit/f14e7f9feb5a40b8973dabc932e5017994f775d9))
+* unicorn/consistent-destructuring ([d333f25](https://github.com/bothrs/eslint-config/commit/d333f253aad8f1dc40d5f1d0c0393b8ccd7521b7))
+* unicorn/prevent-abbreviations ([549e231](https://github.com/bothrs/eslint-config/commit/549e23124cbc9f7fb6ffcd0f5ffaa0fbcabc058c))
+
+
+### Features
+
+* Update rules based on practical project experience ([20eb052](https://github.com/bothrs/eslint-config/commit/20eb052d0c34615d2713a543d05139e74e29fa57))
+
 # [1.5.0](https://github.com/bothrs/eslint-config/compare/release/v1.4.0...release/v1.5.0) (2021-12-21)
 
 
