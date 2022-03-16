@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/bothrs/eslint-config/compare/release/v1.6.0...release/v1.6.1) (2022-03-16)
+
+
+### Bug Fixes
+
+* BREAKING CHANGE - Move ESLint and Prettier to peerDependency ([92103be](https://github.com/bothrs/eslint-config/commit/92103beb173614908fb645640f356bcab430f772))
+
 # [1.6.0](https://github.com/bothrs/eslint-config/compare/release/v1.5.0...release/v1.6.0) (2022-03-11)
 
 
