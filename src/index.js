@@ -78,10 +78,12 @@ module.exports = {
     'unicorn/filename-case': [
       'error',
       {
-        cases: {
-          kebabCase: true,
-          pascalCase: true,
-        },
+        case: 'pascalCase',
+        ignore: [
+          /\w+.(spec|test).([jt])sx?$/, // .spec.ts(x) files
+          /\w+.([jt])s$/, // regular .ts files
+          /^use([A-Z])\w+.([jt])s$/, // useHook.ts
+        ],
       },
     ],
 
