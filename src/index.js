@@ -70,8 +70,14 @@ module.exports = {
       'error',
       {
         allowList: {
+          Prop: true,
+          prop: true,
           Props: true,
           props: true,
+          Ref: true,
+          ref: true,
+          Src: true,
+          src: true,
         },
       },
     ],
@@ -82,6 +88,12 @@ module.exports = {
           kebabCase: true,
           pascalCase: true,
         },
+        ignore: [
+          /\w+.(spec|test).([jt])sx?$/, // .spec.tsx files
+          /\w+.styled.([jt])sx?$/, // .styled.tsx files
+          /\w+.([jt])s$/, // regular .ts files
+          /^use([A-Z])\w+.(j|t)s$/, // useHook.ts
+        ],
       },
     ],
 
@@ -91,6 +103,7 @@ module.exports = {
     'unused-imports/no-unused-vars': 'warn',
 
     // SonarJS
+    'sonarjs/no-duplicate-string': 'off',
     'sonarjs/no-nested-template-literals': 'off',
 
     // Woke
