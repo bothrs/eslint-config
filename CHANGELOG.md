@@ -1,3 +1,12 @@
+## [1.6.2](https://github.com/bothrs/eslint-config/compare/release/v1.6.1...release/v1.6.2) (2022-05-17)
+
+
+### Bug Fixes
+
+* sonarjs/no-duplicate-string ([2775797](https://github.com/bothrs/eslint-config/commit/27757970631ca334c7f99358b6463802f8addf00))
+* unicorn/filename-case ([4b5ba3b](https://github.com/bothrs/eslint-config/commit/4b5ba3bdb60ecbdab763ac1410346414e39c8378))
+* unicorn/prevent-abbreviations ([aaf0b18](https://github.com/bothrs/eslint-config/commit/aaf0b185fb9e5f2fcf4ce784ddb1a683441eeed6))
+
 ## [1.6.1](https://github.com/bothrs/eslint-config/compare/release/v1.6.0...release/v1.6.1) (2022-03-16)
 
 
