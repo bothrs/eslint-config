@@ -76,6 +76,8 @@ module.exports = {
           props: true,
           Ref: true,
           ref: true,
+          Src: true,
+          src: true,
         },
       },
     ],
@@ -101,6 +103,7 @@ module.exports = {
     'unused-imports/no-unused-vars': 'warn',
 
     // SonarJS
+    'sonarjs/no-duplicate-string': 'off',
     'sonarjs/no-nested-template-literals': 'off',
 
     // Woke
