@@ -70,8 +70,12 @@ module.exports = {
       'error',
       {
         allowList: {
+          Prop: true,
+          prop: true,
           Props: true,
           props: true,
+          Ref: true,
+          ref: true,
         },
       },
     ],
