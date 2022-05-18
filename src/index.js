@@ -78,6 +78,8 @@ module.exports = {
           ref: true,
           Src: true,
           src: true,
+          Env: true,
+          env: true,
         },
       },
     ],
