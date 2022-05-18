@@ -1,6 +1,6 @@
 {
   "name": "@bothrs/eslint-config",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "ESLint configuration used at Bothrs.",
   "private": false,
   "publishConfig": {

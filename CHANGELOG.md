@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/bothrs/eslint-config/compare/release/v1.6.2...release/v1.6.3) (2022-05-18)
+
+
+### Bug Fixes
+
+* added env to abbreviations ([2bb0d18](https://github.com/bothrs/eslint-config/commit/2bb0d1848ba44f6a450c13f65d39388c106c495c))
+
 ## [1.6.2](https://github.com/bothrs/eslint-config/compare/release/v1.6.1...release/v1.6.2) (2022-05-17)
 
 
