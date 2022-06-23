@@ -1,3 +1,10 @@
+## [1.6.5](https://github.com/bothrs/eslint-config/compare/release/v1.6.4...release/v1.6.5) (2022-06-23)
+
+
+### Bug Fixes
+
+* revert react-hooks update ([f726464](https://github.com/bothrs/eslint-config/commit/f726464bd91ffa01bd67254029958bbfbc82f905))
+
 ## [1.6.4](https://github.com/bothrs/eslint-config/compare/release/v1.6.3...release/v1.6.4) (2022-06-23)
 
 
