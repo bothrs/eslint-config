@@ -1,3 +1,10 @@
+## [1.6.4](https://github.com/bothrs/eslint-config/compare/release/v1.6.3...release/v1.6.4) (2022-06-23)
+
+
+### Bug Fixes
+
+* remove unused imports ([82ff747](https://github.com/bothrs/eslint-config/commit/82ff747c9fe3c2b2d8d87be6663da814e6eedb73))
+
 ## [1.6.3](https://github.com/bothrs/eslint-config/compare/release/v1.6.2...release/v1.6.3) (2022-05-18)
 
 
