@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/bothrs/eslint-config/compare/release/v1.6.5...release/v1.7.0) (2022-06-29)
+
+
+### Features
+
+* unlocked packages ([dd3cba7](https://github.com/bothrs/eslint-config/commit/dd3cba7f900bfb7fc232586a8735aaf24c69dc2e))
+
 ## [1.6.5](https://github.com/bothrs/eslint-config/compare/release/v1.6.4...release/v1.6.5) (2022-06-23)
 
 
