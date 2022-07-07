@@ -33,6 +33,7 @@ module.exports = {
     '@bothrs/eslint-config/jest',
     '@bothrs/eslint-config/react',
     '@bothrs/eslint-config/react-native',
+    '@bothrs/eslint-config/node',
   ],
   // Add parserOptions when using Typescript
   parser: '@typescript-eslint/parser',
@@ -61,5 +62,4 @@ This ESLint config is a collection of plugins and custom rules.
 - [ESLint-React](https://github.com/yannickcr/eslint-plugin-react)
 - [ESLint-SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)
 - [ESLint-Typescript](https://github.com/typescript-eslint/typescript-eslint)
-- [ESLint-Unused-Imports](https://github.com/sweepline/eslint-plugin-unused-imports)
 - [ESLint-Woke](https://github.com/amwmedia/eslint-plugin-woke)
