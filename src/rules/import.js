@@ -42,22 +42,20 @@ module.exports = {
           'type',
         ],
       },
+    ],
+    'no-restricted-imports': [
+      'error',
       {
-        'no-restricted-imports': [
-          'error',
-          {
-            paths: [
-              '@fortawesome/free-brands-svg-icons',
-              '@fortawesome/free-regular-svg-icons',
-              '@fortawesome/free-solid-svg-icons',
-              '@fortawesome/pro-duotone-svg-icons',
-              '@fortawesome/pro-light-svg-icons',
-              '@fortawesome/pro-regular-svg-icons',
-              '@fortawesome/pro-solid-svg-icons',
-              '@fortawesome/pro-thin-svg-icons',
-              '@fortawesome/sharp-solid-svg-icons',
-            ],
-          },
+        paths: [
+          '@fortawesome/free-brands-svg-icons',
+          '@fortawesome/free-regular-svg-icons',
+          '@fortawesome/free-solid-svg-icons',
+          '@fortawesome/pro-duotone-svg-icons',
+          '@fortawesome/pro-light-svg-icons',
+          '@fortawesome/pro-regular-svg-icons',
+          '@fortawesome/pro-solid-svg-icons',
+          '@fortawesome/pro-thin-svg-icons',
+          '@fortawesome/sharp-solid-svg-icons',
         ],
       },
     ],
