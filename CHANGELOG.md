@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/bothrs/eslint-config/compare/release/v1.7.0...release/v1.8.0) (2022-10-10)
+
+
+### Bug Fixes
+
+* add @fortawesome/pro-thin-svg-icons to restricted import list ([c52aaa7](https://github.com/bothrs/eslint-config/commit/c52aaa74a6a46e01e17880ad6584bec41d019fbb))
+
+
+### Features
+
+* add fontawesome import rules ([7c0d0ce](https://github.com/bothrs/eslint-config/commit/7c0d0ce585d39182a54b6a108dc3931eedf0366c))
+
 # [1.7.0](https://github.com/bothrs/eslint-config/compare/release/v1.6.5...release/v1.7.0) (2022-06-29)
 
 
