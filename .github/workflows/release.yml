@@ -21,6 +21,11 @@ jobs:
       - name: Install dependencies
         run: yarn
 
+      - name: Configure GIT credentials
+        uses: OleksiyRudenko/gha-git-credentials@v2
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+
       - name: Version
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
