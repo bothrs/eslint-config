@@ -1,13 +1,20 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "command": {
+    "bootstrap": {
+      "forceLocal": true
+    },
     "version": {
       "allowBranch": "main",
       "createRelease": "github",
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "tagVersionPrefix": "release/v",
+      "private": false
+    },
+    "publish": {
+      "private": false
     }
   },
-  "forceLocal": true,
   "npmClient": "yarn",
   "packages": [
     "packages/*"
