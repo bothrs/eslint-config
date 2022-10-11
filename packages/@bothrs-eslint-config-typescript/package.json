@@ -1,0 +1,51 @@
+{
+  "name": "@bothrs/eslint-config-typescript",
+  "description": "ESLint configuration used for Typescript at Bothrs.",
+  "repository": "git@github.com:bothrs/eslint-config.git",
+  "author": {
+    "name": "Bothrs",
+    "email": "dev@bothrs.com",
+    "url": "https://bothrs.com"
+  },
+  "contributors": [
+    {
+      "name": "Fabian Meul",
+      "email": "fabian@bothrs.com"
+    }
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "typescript",
+    "bothrs"
+  ],
+  "version": "2.0.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild src/config.ts --bundle --outfile=index.js --format=cjs",
+    "lint": "eslint specs/samples/vanilla.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:spec": "eslint --format json",
+    "test:verbose": "jest --verbose"
+  },
+  "dependencies": {
+    "@bothrs/eslint-config": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint-import-resolver-typescript": "^3.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "8",
+    "typescript": "*"
+  }
+}

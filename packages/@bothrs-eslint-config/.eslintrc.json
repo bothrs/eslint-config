@@ -6,7 +6,6 @@
     "ecmaVersion": 2022
   },
   "extends": [
-    "./packages/@bothrs-eslint-config",
-    "./packages/@bothrs-eslint-config-typescript"
+    "./index"
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "createRelease": "github",
+      "conventionalCommits": true
+    }
+  },
+  "forceLocal": true,
+  "npmClient": "yarn",
+  "packages": [
+    "packages/*"
+  ],
+  "useNx": true,
+  "useWorkspaces": true,
+  "version": "independent"
+}

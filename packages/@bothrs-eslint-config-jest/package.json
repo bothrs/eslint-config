@@ -1,0 +1,51 @@
+{
+  "name": "@bothrs/eslint-config-jest",
+  "description": "ESLint configuration used for Jest at Bothrs.",
+  "repository": "git@github.com:bothrs/eslint-config.git",
+  "author": {
+    "name": "Bothrs",
+    "email": "dev@bothrs.com",
+    "url": "https://bothrs.com"
+  },
+  "contributors": [
+    {
+      "name": "Fabian Meul",
+      "email": "fabian@bothrs.com"
+    }
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "jest",
+    "bothrs"
+  ],
+  "version": "2.0.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild src/config.ts --bundle --outfile=index.js --format=cjs",
+    "lint": "eslint specs/samples/vanilla.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:spec": "eslint --format json",
+    "test:verbose": "jest --verbose"
+  },
+  "dependencies": {
+    "@bothrs/eslint-config": "^2.0.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-jest-formatting": "^3.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "8",
+    "jest": "27 - 29",
+    "prettier": "2"
+  }
+}

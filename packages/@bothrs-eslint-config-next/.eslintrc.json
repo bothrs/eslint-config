@@ -6,7 +6,10 @@
     "ecmaVersion": 2022
   },
   "extends": [
-    "./packages/@bothrs-eslint-config",
-    "./packages/@bothrs-eslint-config-typescript"
-  ]
+    "./index"
+  ],
+  "rules": {
+    // Only for this local config
+    "@next/next/no-html-link-for-pages": "off"
+  }
 }
