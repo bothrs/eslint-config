@@ -7,7 +7,19 @@ A very opinionated ESLint configuration used at Bothrs.
 - Prettier
 - Typescript
 
-## Installation
+## Packages
+
+| Package                              | Framework    | Version |
+| ------------------------------------ | ------------ | ------- |
+| [@bothrs/eslint-config]              | Vanilla JS   | v2.0.0  |
+| [@bothrs/eslint-config-jest]         | Jest         | v2.0.0  |
+| [@bothrs/eslint-config-next]         | NextJS       | v2.0.0  |
+| [@bothrs/eslint-config-node]         | NodeJS       | v2.0.0  |
+| [@bothrs/eslint-config-react]        | React        | v2.0.0  |
+| [@bothrs/eslint-config-react-native] | React Native | v2.0.0  |
+| [@bothrs/eslint-config-typescript]   | Typescript   | v2.0.0  |
+
+## Usage
 
 Install the package as a devDependency.
 
@@ -63,3 +75,13 @@ This ESLint config is a collection of plugins and custom rules.
 - [ESLint-SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)
 - [ESLint-Typescript](https://github.com/typescript-eslint/typescript-eslint)
 - [ESLint-Woke](https://github.com/amwmedia/eslint-plugin-woke)
+
+<!-- Links -->
+
+[@bothrs/eslint-config]: https://github.com/bothrs/eslint-config/tree/main/packages/bothrs-eslint-config/README.md
+[@bothrs/eslint-config-jest]: https://github.com/bothrs/eslint-config/tree/main/packages/bothrs-eslint-config-jest/README.md
+[@bothrs/eslint-config-next]: https://github.com/bothrs/eslint-config/tree/main/packages/bothrs-eslint-config-next/README.md
+[@bothrs/eslint-config-node]: https://github.com/bothrs/eslint-config/tree/main/packages/bothrs-eslint-config-node/README.md
+[@bothrs/eslint-config-react]: https://github.com/bothrs/eslint-config/tree/main/packages/bothrs-eslint-config-react/README.md
+[@bothrs/eslint-config-react-native]: https://github.com/bothrs/eslint-config/tree/main/packages/bothrs-eslint-config-react-native/README.md
+[@bothrs/eslint-config-typescript]: https://github.com/bothrs/eslint-config/tree/main/packages/bothrs-eslint-config-typescript/README.md
