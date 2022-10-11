@@ -39,6 +39,17 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/no-explicit-any': 'error',
 
+        // https://typescript-eslint.io/rules/consistent-type-imports/
+        '@typescript-eslint/consistent-type-imports': ['error', {
+          prefer: 'type-imports'
+        }],
+        // https://typescript-eslint.io/rules/consistent-type-exports/
+        '@typescript-eslint/consistent-type-exports': ['error', {
+          fixMixedExportsWithInlineTypeSpecifier: false,
+        }],
+        // https://typescript-eslint.io/rules/consistent-type-definitions
+        '@typescript-eslint/consistent-type-definitions': ['warn', 'type'],
+
         // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-inferrable-types.md
         '@typescript-eslint/no-inferrable-types': 'off',
 
