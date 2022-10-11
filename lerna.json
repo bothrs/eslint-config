@@ -3,6 +3,7 @@
   "command": {
     "version": {
       "allowBranch": "main",
+      "createRelease": "github",
       "conventionalCommits": true
     }
   },
