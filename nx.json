@@ -10,18 +10,12 @@
     }
   },
   "targetDefaults": {
-    "build": {
-      "dependsOn": [
-        "^build",
-        "prebuild"
-      ]
-    },
-    "publish": {
+    "version": {
       "dependsOn": [
         "build"
       ]
     },
-    "test": {
+    "publish": {
       "dependsOn": [
         "build"
       ]
