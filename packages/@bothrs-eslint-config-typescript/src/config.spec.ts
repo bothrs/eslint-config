@@ -16,9 +16,6 @@ describe('config', () => {
 
       await eslint.lintFiles([files])
 
-      // const results = ESLint.getErrorResults(result)
-
-      // console.log(result[0].messages[0], results)
     }).not.toThrow()
   })
 
@@ -41,8 +38,6 @@ describe('config', () => {
     const wokeError = eslintResult.messages.find(
       (value) => value.ruleId === 'woke/profanity'
     )
-
-    console.log(eslintResult)
 
     expect(eslintResult.errorCount).toBe(5)
     expect(prettierError).toBeTruthy()

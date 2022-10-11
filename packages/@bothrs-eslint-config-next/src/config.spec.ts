@@ -19,10 +19,6 @@ describe('config', () => {
       await eslint.lintFiles([
         files
       ])
-
-      // const results = ESLint.getErrorResults(result)
-
-      // console.log(result[0].messages[0], results)
     }).not.toThrow()
   })
 
