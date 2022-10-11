@@ -1,6 +1,5 @@
 {
   "name": "bothrs-eslint-config",
-  "version": "1.8.0",
   "description": "ESLint configuration used at Bothrs.",
   "private": true,
   "keywords": [
