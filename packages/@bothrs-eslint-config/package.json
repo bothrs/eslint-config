@@ -1,0 +1,57 @@
+{
+  "name": "@bothrs/eslint-config",
+  "description": "ESLint configuration used at Bothrs.",
+  "repository": "git@github.com:bothrs/eslint-config.git",
+  "author": {
+    "name": "Bothrs",
+    "email": "dev@bothrs.com",
+    "url": "https://bothrs.com"
+  },
+  "contributors": [
+    {
+      "name": "Fabian Meul",
+      "email": "fabian@bothrs.com"
+    },
+    {
+      "name": "Tijs Martens",
+      "email": "tijs@bothrs.com"
+    }
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "bothrs"
+  ],
+  "version": "2.0.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild src/config.ts --bundle --outfile=index.js --format=cjs",
+    "lint": "eslint specs/samples/vanilla.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:spec": "eslint --format json",
+    "test:verbose": "jest --verbose"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-no-secrets": "^0.8.9",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-sonarjs": "^0.15.0",
+    "eslint-plugin-unicorn": "^44.0.2",
+    "eslint-plugin-woke": "^1.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "28"
+  }
+}

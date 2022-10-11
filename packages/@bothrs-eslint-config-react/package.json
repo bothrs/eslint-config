@@ -1,0 +1,55 @@
+{
+  "name": "@bothrs/eslint-config-react",
+  "description": "ESLint configuration used for React projects at Bothrs.",
+  "repository": "git@github.com:bothrs/eslint-config.git",
+  "author": {
+    "name": "Bothrs",
+    "email": "dev@bothrs.com",
+    "url": "https://bothrs.com"
+  },
+  "contributors": [
+    {
+      "name": "Fabian Meul",
+      "email": "fabian@bothrs.com"
+    }
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "react",
+    "bothrs"
+  ],
+  "version": "2.0.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild src/config.ts --bundle --outfile=index.js --format=cjs",
+    "lint": "eslint specs/samples/vanilla.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:spec": "eslint --format json",
+    "test:verbose": "jest --verbose"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.21"
+  },
+  "dependencies": {
+    "@bothrs/eslint-config": "^2.0.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.9",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  },
+  "peerDependencies": {
+    "eslint": "28",
+    "prettier": "2",
+    "react": "17 - 18"
+  }
+}
