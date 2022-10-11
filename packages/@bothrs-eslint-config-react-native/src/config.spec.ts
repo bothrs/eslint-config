@@ -32,9 +32,6 @@ describe('config', () => {
 
     const eslintResult = result[0]
 
-    // const reactError = eslintResult.messages.find(( value ) => value.ruleId === 'react/no-unescaped-entities')
-
-    expect(eslintResult.errorCount).toBe(1)
-    // expect(reactError).toBeTruthy()
+    expect(eslintResult.errorCount).toBe(3)
   })
 })
