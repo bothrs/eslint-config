@@ -44,7 +44,7 @@
     "eslint-plugin-jest-formatting": "^3.1.0"
   },
   "peerDependencies": {
-    "eslint": "28",
+    "eslint": "8",
     "jest": "27 - 29",
     "prettier": "2"
   }

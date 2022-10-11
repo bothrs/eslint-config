@@ -16,6 +16,11 @@
         "prebuild"
       ]
     },
+    "publish": {
+      "dependsOn": [
+        "build"
+      ]
+    },
     "test": {
       "dependsOn": [
         "build"

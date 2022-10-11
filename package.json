@@ -24,20 +24,22 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint -c ./src/index.js \"./test/**/*\"",
-    "postinstall": "lerna bootstrap"
+    "postinstall": "lerna bootstrap",
+    "lerna:version": "lerna version --no-private",
+    "lerna:publish": "lerna publish --no-private"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "@jest/types": "^29.1.2",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.6",
     "@semantic-release/npm": "^9.0.0",
     "@types/eslint": "^8.4.6",
-    "@types/jest": "^27.5.1",
+    "@types/jest": "^29.1.2",
+    "@types/node": "^16.11.7",
     "@types/react": "^18.0.21",
     "dotenv-cli": "^6.0.0",
     "esbuild": "^0.15.10",
