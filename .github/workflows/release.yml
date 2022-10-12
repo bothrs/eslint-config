@@ -29,7 +29,7 @@ jobs:
       - name: Version
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npx lerna version --yes
+        run: npx lerna version --conventional-graduate --yes
 
       - name: Release
         env:
