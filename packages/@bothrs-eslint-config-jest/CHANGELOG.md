@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-jest@2.0.0-rc.2...@bothrs/eslint-config-jest@2.0.0) (2022-10-12)
+
+**Note:** Version bump only for package @bothrs/eslint-config-jest
+
 # 2.0.0-rc.2 (2022-10-11)
 
 ### Bug Fixes
