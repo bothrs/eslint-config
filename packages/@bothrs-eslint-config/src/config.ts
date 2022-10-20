@@ -162,5 +162,9 @@ module.exports = {
     // Woke
     // ------------------------------------------------------------------------- /
     'woke/profanity': ['error'],
+
+    // prevent bracketless if statetemens to be formatted under the condition
+    // ------------------------------------------------------------------------- /
+    "nonblock-statement-body-position": 2,
   },
 } as Linter.BaseConfig
