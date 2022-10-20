@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config@2.0.0...@bothrs/eslint-config@2.1.0) (2022-10-20)
+
+### Features
+
+- add nonblock-statement-body-position ([f1ce168](https://github.com/bothrs/eslint-config/commit/f1ce168d357256af58fc0cdd4a3bae079a772538))
+
 # [2.0.0](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config@2.0.0-rc.2...@bothrs/eslint-config@2.0.0) (2022-10-12)
 
 **Note:** Version bump only for package @bothrs/eslint-config
