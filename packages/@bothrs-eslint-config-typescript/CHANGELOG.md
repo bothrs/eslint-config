@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-typescript@2.0.1...@bothrs/eslint-config-typescript@2.0.2) (2022-10-27)
+
+### Bug Fixes
+
+- change the eslintrc file extension to ts in the typescript package ([b06af82](https://github.com/bothrs/eslint-config/commit/b06af823521c8ef7e63d3d89564505abb438cd07))
+
 ## [2.0.1](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-typescript@2.0.0...@bothrs/eslint-config-typescript@2.0.1) (2022-10-20)
 
 **Note:** Version bump only for package @bothrs/eslint-config-typescript
