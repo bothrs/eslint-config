@@ -16,7 +16,9 @@ yarn add @bothrs/eslint-config-typescript -D
 
 Add the package to the `extends`-section of your eslint configuration.
 
-Example `.eslintrc.js` file:
+When using the typescript configuration, your `eslintrc` file should extend `.ts`
+
+Example `.eslintrc.ts` file:
 
 ```
 // .eslintrc.js
