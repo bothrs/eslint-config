@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.3](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-typescript@2.0.2...@bothrs/eslint-config-typescript@2.0.3) (2022-11-08)
+
+### Bug Fixes
+
+- **typescript:** Disable duplicate rule for `no-unused-vars` ([d5854ad](https://github.com/bothrs/eslint-config/commit/d5854adb62e5890e6b6426c5523e16f207768911))
+
 ## [2.0.2](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-typescript@2.0.1...@bothrs/eslint-config-typescript@2.0.2) (2022-10-27)
 
 ### Bug Fixes

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config@2.1.0...@bothrs/eslint-config@2.2.0) (2022-11-08)
+
+### Features
+
+- Allow hooks with .tsx extension ([7e09324](https://github.com/bothrs/eslint-config/commit/7e093243a8d8ce2126382f2efa87c7dcf9141efe))
+
 # [2.1.0](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config@2.0.0...@bothrs/eslint-config@2.1.0) (2022-10-20)
 
 ### Features
