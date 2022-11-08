@@ -67,7 +67,7 @@ module.exports = {
           /\w+.(spec|test).([jt])sx?$/, // .spec.tsx files
           /\w+.styled.([jt])sx?$/, // .styled.tsx files
           /\w+.([jt])s$/, // regular .ts files
-          /^use([A-Z])\w+.(j|t)s$/, // useHook.ts
+          /^use([A-Z])\w+.(j|t)sx?$/, // useHook.ts
         ],
       },
     ],
