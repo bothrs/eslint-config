@@ -39,14 +39,15 @@
     "test:verbose": "jest --verbose"
   },
   "devDependencies": {
-    "@types/react": "^18.0.21"
+    "@types/react": "18.0.25",
+    "eslint": "8"
   },
   "dependencies": {
-    "@bothrs/eslint-config": "^2.1.0",
-    "@bothrs/eslint-config-react": "^2.0.1",
-    "@react-native-community/eslint-config": "^3.1.0",
+    "@bothrs/eslint-config": "^2",
+    "@bothrs/eslint-config-react": "^2",
+    "@react-native-community/eslint-config": "^3.2.0",
     "eslint-plugin-react-native": "^4.0.0",
-    "eslint-plugin-react-native-a11y": "^3.2.1"
+    "eslint-plugin-react-native-a11y": "^3.3.0"
   },
   "peerDependencies": {
     "eslint": "8",

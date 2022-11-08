@@ -31,9 +31,11 @@ module.exports = {
         },
       },
       rules: {
-        // Rules that conflict with prettier
-        // --------------------------------------------------------------------
-        'dot-notation': 'off', // https://eslint.org/docs/rules/dot-notation
+        // START: Handled by the typescript plugin
+        'dot-notation': 'off',
+        'no-unused-vars': 'off',
+        // END: Handled by the typescript plugin
+
         '@typescript-eslint/dot-notation': ['warn'], // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
 
         '@typescript-eslint/no-unused-vars': 'error',
