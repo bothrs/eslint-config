@@ -23,24 +23,24 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@bothrs/eslint-config@^2":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@bothrs/eslint-config/-/eslint-config-2.0.0.tgz#9270be4c5d01c58723a946f53313bc3768376482"
-  integrity sha512-/oLg5xgMLmenPeKihJoaiodQLk1OOPcTu4Xq6P3rs/5KESv5HdzsrTLPDIU9pde+/0XI27+y3C+RUo8Nr5Cfgw==
+"@bothrs/eslint-config@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@bothrs/eslint-config/-/eslint-config-2.2.0.tgz#4cfc5059215f279376205451b8909f2177a201da"
+  integrity sha512-0Q4vQUhrRAUUr9SoQe+nWrTct9bxNWvg/sJMWd/i8TT5NnIad+MzeNdPqx20TU/LnuGLjVPB/McsNUjmDxQUyA==
   dependencies:
     eslint-config-prettier "^8.5.0"
     eslint-plugin-eslint-comments "^3.2.0"
     eslint-plugin-import "^2.26.0"
     eslint-plugin-no-secrets "^0.8.9"
     eslint-plugin-prettier "^4.2.1"
-    eslint-plugin-sonarjs "^0.15.0"
+    eslint-plugin-sonarjs "^0.16.0"
     eslint-plugin-unicorn "^44.0.2"
     eslint-plugin-woke "^1.0.1"
 
-"@next/eslint-plugin-next@13.0.2":
-  version "13.0.2"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.0.2.tgz#89fe2144b37896f926e2bd9bed675396f1f697ce"
-  integrity sha512-W+fIIIaFU7Kct7Okx91C7XDRGolv/w2RUenX2yZFeeNVcuVzDIKUcNmckrYbYcwrNQUSXmtwrs3g8xwast0YtA==
+"@next/eslint-plugin-next@^13.1.6":
+  version "13.1.6"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.1.6.tgz#ad8be22dd3d8aee9a9bd9a2507e2c55a2f7ebdd9"
+  integrity sha512-o7cauUYsXjzSJkay8wKjpKJf2uLzlggCsGUkPu3lP09Pv97jYlekTC20KJrjQKmSv5DXV0R/uks2ZXhqjNkqAw==
   dependencies:
     glob "7.1.7"
 
@@ -292,10 +292,10 @@ eslint-plugin-prettier@^4.2.1:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-sonarjs@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.15.0.tgz#f9c904f143f4e2336f2923be08399b32b5bd2781"
-  integrity sha512-LuxHdAe6VqSbi1phsUvNjbmXLuvlobmryQJJNyQYbdubCfz6K8tmgoqNiJPnz0pP2AbYDbtuPm0ajOMgMrC+dQ==
+eslint-plugin-sonarjs@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.16.0.tgz#227651fea8a7c82b40156a1d70d52d64ea058dba"
+  integrity sha512-al8ojAzcQW8Eu0tWn841ldhPpPcjrJ59TzzTfAVWR45bWvdAASCmrGl8vK0MWHyKVDdC0i17IGbtQQ1KgxLlVA==
 
 eslint-plugin-unicorn@^44.0.2:
   version "44.0.2"
