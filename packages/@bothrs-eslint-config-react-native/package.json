@@ -39,8 +39,8 @@
     "test:verbose": "jest --verbose"
   },
   "devDependencies": {
-    "@types/react": "18.0.25",
-    "eslint": "8"
+    "@types/react": "18.0.27",
+    "eslint": "8.33.0"
   },
   "dependencies": {
     "@bothrs/eslint-config": "^2.2.0",
