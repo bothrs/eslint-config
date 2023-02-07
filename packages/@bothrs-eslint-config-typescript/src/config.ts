@@ -36,9 +36,15 @@ module.exports = {
         'no-unused-vars': 'off',
         // END: Handled by the typescript plugin
 
-        '@typescript-eslint/dot-notation': ['warn'], // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
+        '@typescript-eslint/dot-notation': ['warn'],
 
-        '@typescript-eslint/no-unused-vars': 'error',
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
+        "@typescript-eslint/no-unused-vars": [
+          "error", {
+            varsIgnorePattern: '^_.*'
+          }
+        ],
         '@typescript-eslint/no-explicit-any': 'error',
 
         // https://typescript-eslint.io/rules/consistent-type-imports/
