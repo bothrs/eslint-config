@@ -31,5 +31,5 @@ They can be mixed and matched to add support for the framework that are used.
 [@bothrs/eslint-config-next]: https://github.com/bothrs/eslint-config/blob/main/packages/%40bothrs-eslint-config-next/README.md
 [@bothrs/eslint-config-node]: https://github.com/bothrs/eslint-config/blob/main/packages/%40bothrs-eslint-config-node/README.md
 [@bothrs/eslint-config-react]: https://github.com/bothrs/eslint-config/blob/main/packages/%40bothrs-eslint-config-react/README.md
-[@bothrs/eslint-config-react-native]:https://github.com/bothrs/eslint-config/blob/main/packages/%40bothrs-eslint-config-react-native/README.md
+[@bothrs/eslint-config-react-native]: https://github.com/bothrs/eslint-config/blob/main/packages/%40bothrs-eslint-config-react-native/README.md
 [@bothrs/eslint-config-typescript]: https://github.com/bothrs/eslint-config/blob/main/packages/%40bothrs-eslint-config-typescript/README.md
