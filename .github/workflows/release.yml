@@ -22,7 +22,7 @@ jobs:
         run: yarn
 
       - name: Configure GIT credentials
-        uses: OleksiyRudenko/gha-git-credentials@v2
+        uses: OleksiyRudenko/gha-git-credentials@v2-latest
         with:
           token: ${{ secrets.GH_TOKEN }}
 
@@ -31,7 +31,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx lerna version --conventional-graduate --yes
 
-      - name: Release
+      - name: 'Configure: NPM'
+        run: |
+          npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Release
         run: npx lerna publish --yes
