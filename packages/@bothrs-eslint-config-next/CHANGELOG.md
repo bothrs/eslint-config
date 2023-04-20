@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.4](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-next@2.0.3...@bothrs/eslint-config-next@2.0.4) (2023-04-20)
+
+### Bug Fixes
+
+- improved next preset and fixed readme links ([a385399](https://github.com/bothrs/eslint-config/commit/a385399828b026f7541d91356a0abd101450227a))
+
 ## [2.0.3](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-next@2.0.2...@bothrs/eslint-config-next@2.0.3) (2023-02-07)
 
 **Note:** Version bump only for package @bothrs/eslint-config-next
