@@ -40,4 +40,5 @@ jobs:
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npx lerna publish --yes --loglevel silly
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx lerna publish --include-merged-tags --yes
