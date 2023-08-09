@@ -24,7 +24,7 @@
     "node",
     "bothrs"
   ],
-  "version": "2.0.4",
+  "version": "2.0.5",
   "main": "index.js",
   "files": [
     "index.js"
@@ -39,7 +39,7 @@
     "test:verbose": "jest --verbose"
   },
   "dependencies": {
-    "@bothrs/eslint-config": "^2.2.2"
+    "@bothrs/eslint-config": "^2.2.3"
   },
   "peerDependencies": {
     "eslint": "8",
