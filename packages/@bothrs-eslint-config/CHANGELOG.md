@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config@2.2.5...@bothrs/eslint-config@2.3.0) (2023-08-09)
+
+### Features
+
+- implement unfinished pipeline ([2b1670f](https://github.com/bothrs/eslint-config/commit/2b1670fa5c8a95d3256865c1f3b908ee5b32c5c7))
+
 ## [2.2.5](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config@2.2.4...@bothrs/eslint-config@2.2.5) (2023-08-09)
 
 **Note:** Version bump only for package @bothrs/eslint-config
