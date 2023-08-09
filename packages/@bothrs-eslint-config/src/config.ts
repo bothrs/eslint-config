@@ -157,7 +157,7 @@ module.exports = {
     // ------------------------------------------------------------------------- /
     'woke/profanity': ['error'],
 
-    // Prevent bracketless if statetemens to be formatted under the condition
+    // Prevent bracket-less if statements to be formatted under the condition
     // ------------------------------------------------------------------------- /
     'nonblock-statement-body-position': 2,
   },

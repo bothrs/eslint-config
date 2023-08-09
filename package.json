@@ -25,6 +25,9 @@
       "email": "fabian@bothrs.com"
     }
   ],
+  "scripts": {
+    "build": "lerna exec -- yarn build"
+  },
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.2",
