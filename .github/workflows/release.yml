@@ -26,11 +26,6 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
 
-      - name: Version
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npx lerna version --conventional-graduate --yes
-
       - name: 'Configure: NPM'
         run: |
           npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
@@ -41,4 +36,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx lerna publish --include-merged-tags --yes
+        run: npx lerna publish --conventional-graduate --include-merged-tags --yes
