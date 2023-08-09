@@ -38,4 +38,6 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Release
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx lerna publish --yes --loglevel silly
