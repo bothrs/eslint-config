@@ -2,6 +2,11 @@
   "name": "bothrs-eslint-config",
   "description": "ESLint configuration used at Bothrs.",
   "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "keywords": [
     "eslint",
     "eslintconfig",
