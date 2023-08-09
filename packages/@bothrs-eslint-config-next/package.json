@@ -24,7 +24,7 @@
     "nextjs",
     "bothrs"
   ],
-  "version": "2.0.9",
+  "version": "2.0.10",
   "main": "index.js",
   "files": [
     "index.js"
@@ -42,7 +42,7 @@
     "@next/eslint-plugin-next": "^13.1.6"
   },
   "dependencies": {
-    "@bothrs/eslint-config": "^2.2.4",
+    "@bothrs/eslint-config": "^2.2.5",
     "@next/eslint-plugin-next": "^13.1.6"
   },
   "peerDependencies": {

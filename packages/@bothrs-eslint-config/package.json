@@ -27,7 +27,7 @@
     "eslint-config",
     "bothrs"
   ],
-  "version": "2.2.4",
+  "version": "2.2.5",
   "main": "index.js",
   "files": [
     "index.js"
