@@ -5,14 +5,7 @@ module.exports = {
   env: {
     es2022: true,
   },
-  plugins: [
-    'import',
-    'no-secrets',
-    'prettier',
-    'sonarjs',
-    'unicorn',
-    'woke',
-  ],
+  plugins: ['import', 'no-secrets', 'prettier', 'sonarjs', 'unicorn', 'woke'],
   extends: [
     'eslint:recommended',
 
@@ -30,6 +23,7 @@ module.exports = {
     // Unicorn
     // ------------------------------------------------------------------------- /
     'unicorn/consistent-function-scoping': 'off',
+    'unicorn/import-style': 'off',
     'unicorn/no-array-callback-reference': 'off',
     'unicorn/no-array-for-each': 'off',
     'unicorn/no-array-reduce': 'off',
@@ -165,6 +159,6 @@ module.exports = {
 
     // prevent bracketless if statetemens to be formatted under the condition
     // ------------------------------------------------------------------------- /
-    "nonblock-statement-body-position": 2,
+    'nonblock-statement-body-position': 2,
   },
 } as Linter.BaseConfig
