@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.4](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config@2.2.3...@bothrs/eslint-config@2.2.4) (2023-08-09)
+
+### Bug Fixes
+
+- add new exception ([180c67c](https://github.com/bothrs/eslint-config/commit/180c67c447c178d88438194d2688badbe9e90e00))
+
 ## [2.2.3](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config@2.2.2...@bothrs/eslint-config@2.2.3) (2023-08-09)
 
 **Note:** Version bump only for package @bothrs/eslint-config
