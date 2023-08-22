@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.1](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config@2.3.0...@bothrs/eslint-config@2.3.1) (2023-08-22)
+
+**Note:** Version bump only for package @bothrs/eslint-config
+
 # [2.3.0](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config@2.2.5...@bothrs/eslint-config@2.3.0) (2023-08-09)
 
 ### Features
