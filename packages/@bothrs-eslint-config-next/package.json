@@ -38,9 +38,6 @@
     "test:spec": "eslint --format json",
     "test:verbose": "jest --verbose"
   },
-  "devDependencies": {
-    "@next/eslint-plugin-next": "^13.1.6"
-  },
   "dependencies": {
     "@bothrs/eslint-config": "^2.3.3",
     "@next/eslint-plugin-next": "^13.1.6"
