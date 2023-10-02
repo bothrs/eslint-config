@@ -24,7 +24,7 @@
     "react-native",
     "bothrs"
   ],
-  "version": "2.0.14",
+  "version": "2.0.15",
   "main": "index.js",
   "files": [
     "index.js"
@@ -42,8 +42,8 @@
     "@types/react": "18.0.27"
   },
   "dependencies": {
-    "@bothrs/eslint-config": "^2.3.3",
-    "@bothrs/eslint-config-react": "^2.0.14",
+    "@bothrs/eslint-config": "^2.3.4",
+    "@bothrs/eslint-config-react": "^2.0.15",
     "@react-native-community/eslint-config": "^3.2.0",
     "eslint-plugin-react-native": "^4.0.0",
     "eslint-plugin-react-native-a11y": "^3.3.0"
