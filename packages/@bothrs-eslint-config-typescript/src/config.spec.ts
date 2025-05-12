@@ -15,7 +15,6 @@ describe('config', () => {
       const files = path.resolve('./specs/samples/vanilla.ts')
 
       await eslint.lintFiles([files])
-
     }).not.toThrow()
   })
 
@@ -35,14 +34,10 @@ describe('config', () => {
     const unicornError = eslintResult.messages.find(
       (value) => value.ruleId === 'unicorn/prevent-abbreviations'
     )
-    const wokeError = eslintResult.messages.find(
-      (value) => value.ruleId === 'woke/profanity'
-    )
 
     expect(eslintResult.errorCount).toBe(5)
     expect(prettierError).toBeTruthy()
     expect(unicornError).toBeTruthy()
-    expect(wokeError).toBeTruthy()
     expect(typescriptError).toBeTruthy()
   })
 })

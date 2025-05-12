@@ -1,21 +1,35 @@
 import type { Linter } from 'eslint'
+import globals from 'globals'
 
-// ------------------------------------------------------------------------- /
-module.exports = {
-  env: {
-    jest: true,
+import baseConfig from '../../@bothrs-eslint-config/src/config'
+
+import pluginJest from 'eslint-plugin-jest'
+import pluginJestFormatting from 'eslint-plugin-jest-formatting'
+import eslintConfigPrettier from 'eslint-config-prettier'
+
+// ------------------------------------------------------------------------- //
+export default [
+  ...baseConfig,
+
+  {
+    files: [
+      '**/*.{spec,test}.{js,jsx,ts,tsx}',
+      '**/__tests__/**/*.{js,jsx,ts,tsx}',
+    ],
+    languageOptions: {
+      globals: {
+        ...globals.jest,
+      },
+    },
+    plugins: {
+      jest: pluginJest,
+      'jest-formatting': pluginJestFormatting,
+    },
+    rules: {
+      ...pluginJest.configs.recommended.rules,
+      ...pluginJestFormatting.configs.recommended.rules,
+    },
   },
-  extends: [
-    '@bothrs/eslint-config',
 
-    'plugin:jest/recommended',
-    'plugin:jest-formatting/recommended',
-
-    'prettier', // Make sure to put it last, so it gets the chance to override other configs.
-  ],
-  plugins: [
-    'jest', 'jest-formatting'
-  ],
-  rules: {
-  },
-} as Linter.BaseConfig
+  eslintConfigPrettier, // Must be last to override other formatting rules
+] satisfies Linter.FlatConfig[]
