@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-typescript@2.1.0...@bothrs/eslint-config-typescript@3.1.1) (2025-05-12)
+
+**Note:** Version bump only for package @bothrs/eslint-config-typescript
+
 # [2.1.0](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-typescript@2.0.16...@bothrs/eslint-config-typescript@2.1.0) (2025-05-12)
 
 ### Bug Fixes
