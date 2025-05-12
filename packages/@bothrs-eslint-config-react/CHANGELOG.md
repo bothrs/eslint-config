@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-react@2.0.15...@bothrs/eslint-config-react@3.1.0) (2025-05-12)
+
+### Bug Fixes
+
+- build ([af5af95](https://github.com/bothrs/eslint-config/commit/af5af951a78d749e0eb43b8ec7d9c560252a70e6))
+
+### Features
+
+- eslint 9 ([7fe1085](https://github.com/bothrs/eslint-config/commit/7fe10854c1c08b03796f87374047d79e877a8aab))
+
 ## [2.0.15](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-react@2.0.14...@bothrs/eslint-config-react@2.0.15) (2023-10-02)
 
 **Note:** Version bump only for package @bothrs/eslint-config-react
