@@ -34,7 +34,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "esbuild src/config.ts --bundle --outfile=index.js --format=cjs",
+    "build": "esbuild src/config.ts --bundle --platform=node --packages=external --outfile=index.js --format=cjs",
     "lint": "eslint specs/samples/vanilla.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
