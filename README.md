@@ -1,6 +1,6 @@
-# Bothrs: ESLint configuration
+# Nimble: ESLint configuration
 
-A very opinionated ESLint configuration used at Bothrs.
+A very opinionated ESLint configuration used at Nimble.
 
 ## Prerequisites
 

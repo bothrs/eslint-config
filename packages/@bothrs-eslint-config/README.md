@@ -40,4 +40,3 @@ module.exports = {
 - [ESLint-No-Secrets](https://github.com/nickdeis/eslint-plugin-no-secrets)
 - [ESLint-Prettier](https://github.com/prettier/prettier-eslint)
 - [ESLint-SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)
-- [ESLint-Woke](https://github.com/amwmedia/eslint-plugin-woke)

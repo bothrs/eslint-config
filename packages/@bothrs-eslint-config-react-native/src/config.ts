@@ -1,19 +1,25 @@
 import type { Linter } from 'eslint'
 
-// ------------------------------------------------------------------------- /
 module.exports = {
-  env: {
-    'react-native/react-native': true,
-  },
   extends: [
     '@bothrs/eslint-config',
     '@bothrs/eslint-config-react',
-
     'plugin:react-native-a11y/all',
-
-    'prettier', // Make sure to put it last, so it gets the chance to override other configs.
+    'prettier',
   ],
-  plugins: ['react-native', '@react-native-community'],
-  rules: {
+
+  env: {
+    es2022: true,
   },
+
+  overrides: [
+    {
+      files: ['**/*.{js,jsx,ts,tsx}'],
+      plugins: ['react-native', '@react-native-community'],
+      env: {
+        'react-native/react-native': true,
+      },
+      rules: {},
+    },
+  ],
 } as Linter.BaseConfig

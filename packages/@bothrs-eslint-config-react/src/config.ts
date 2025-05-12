@@ -1,36 +1,50 @@
 import type { Linter } from 'eslint'
+import globals from 'globals'
 
-// ------------------------------------------------------------------------- /
-module.exports = {
-  env: {
-    es2022: true,
+import baseConfig from '../../@bothrs-eslint-config/src/config'
+import pluginReact from 'eslint-plugin-react'
+import pluginReactHooks from 'eslint-plugin-react-hooks'
+import pluginJsxA11y from 'eslint-plugin-jsx-a11y'
+import eslintConfigPrettier from 'eslint-config-prettier'
+
+export default [
+  ...baseConfig,
+  {
+    files: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
+    plugins: {
+      react: pluginReact,
+      'react-hooks': pluginReactHooks,
+      'jsx-a11y': pluginJsxA11y,
+    },
+    languageOptions: {
+      ecmaVersion: 2022,
+      sourceType: 'module',
+      globals: {
+        ...globals.browser,
+        ...globals.es2021,
+      },
+    },
+    settings: {
+      react: {
+        version: 'detect',
+      },
+    },
+    rules: {
+      ...pluginReact.configs.recommended.rules,
+      ...pluginReact.configs['jsx-runtime'].rules,
+      ...pluginReactHooks.configs.recommended.rules,
+      ...pluginJsxA11y.configs.recommended.rules,
+    },
   },
-  extends: [
-    '@bothrs/eslint-config',
-
-    'plugin:react/recommended',
-    'plugin:react/jsx-runtime',
-    'plugin:react-hooks/recommended',
-    'plugin:jsx-a11y/recommended',
-
-    'prettier', // Make sure to put it last, so it gets the chance to override other configs.
-  ],
-  plugins: ['react', 'react-hooks', 'jsx-a11y'],
-  settings: {
-    react: {
-      version: "detect"
-    }
-  },
-  overrides: [
-    {
-      files: ["**/*.jsx", "**/*.tsx"],
+  {
+    files: ['**/*.jsx', '**/*.tsx'],
+    languageOptions: {
       parserOptions: {
         ecmaFeatures: {
-          jsx: true
-        }
-      }
-    }
-  ],
-  rules: {
+          jsx: true,
+        },
+      },
+    },
   },
-} as Linter.BaseConfig
+  eslintConfigPrettier,
+] satisfies Linter.FlatConfig[]

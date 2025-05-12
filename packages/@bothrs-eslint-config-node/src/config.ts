@@ -1,15 +1,21 @@
 import type { Linter } from 'eslint'
+import globals from 'globals'
 
-// ------------------------------------------------------------------------- /
-module.exports = {
-  env: {
-    es2022: true,
-    node: true,
+import baseConfig from '../../@bothrs-eslint-config/src/config'
+import eslintConfigPrettier from 'eslint-config-prettier'
+
+export default [
+  ...baseConfig,
+  {
+    languageOptions: {
+      ecmaVersion: 2022,
+      sourceType: 'module',
+      globals: {
+        ...globals.node,
+        ...globals.es2021,
+      },
+    },
+    rules: {},
   },
-  extends: [
-    '@bothrs/eslint-config',
-    'prettier', // Make sure to put it last, so it gets the chance to override other configs.
-  ],
-  rules: {
-  },
-} as Linter.BaseConfig
+  eslintConfigPrettier,
+] satisfies Linter.FlatConfig[]

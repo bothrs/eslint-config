@@ -40,21 +40,28 @@ module.exports = {
         '@typescript-eslint/dot-notation': ['warn'],
 
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
-        "@typescript-eslint/no-unused-vars": [
-          "error", {
-            varsIgnorePattern: '^_.*'
-          }
+        '@typescript-eslint/no-unused-vars': [
+          'error',
+          {
+            varsIgnorePattern: '^_.*',
+          },
         ],
         '@typescript-eslint/no-explicit-any': 'error',
 
         // https://typescript-eslint.io/rules/consistent-type-imports/
-        '@typescript-eslint/consistent-type-imports': ['error', {
-          prefer: 'type-imports'
-        }],
+        '@typescript-eslint/consistent-type-imports': [
+          'error',
+          {
+            prefer: 'type-imports',
+          },
+        ],
         // https://typescript-eslint.io/rules/consistent-type-exports/
-        '@typescript-eslint/consistent-type-exports': ['error', {
-          fixMixedExportsWithInlineTypeSpecifier: false,
-        }],
+        '@typescript-eslint/consistent-type-exports': [
+          'error',
+          {
+            fixMixedExportsWithInlineTypeSpecifier: false,
+          },
+        ],
         // https://typescript-eslint.io/rules/consistent-type-definitions
         '@typescript-eslint/consistent-type-definitions': ['warn', 'type'],
 

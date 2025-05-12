@@ -34,11 +34,9 @@ describe('config', () => {
     const eslintResult = result[0]
     const prettierError = eslintResult.messages.find(( value ) => value.ruleId === 'prettier/prettier')
     const unicornError = eslintResult.messages.find(( value ) => value.ruleId === 'unicorn/prevent-abbreviations')
-    const wokeError = eslintResult.messages.find(( value ) => value.ruleId === 'woke/profanity')
 
     expect(eslintResult.errorCount).toBe(5)
     expect(prettierError).toBeTruthy()
     expect(unicornError).toBeTruthy()
-    expect(wokeError).toBeTruthy()
   })
 })
