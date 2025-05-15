@@ -68,6 +68,8 @@ export default [
         { selector: 'typeLike', format: ['PascalCase'] },
         { selector: 'enum', format: ['PascalCase', 'UPPER_CASE'] },
       ],
+
+      '@typescript-eslint/no-unused-expressions': 'off',
     },
   },
 

@@ -32,6 +32,8 @@ export default [
       'unicorn/prefer-module': 'off',
       'unicorn/prefer-node-protocol': 'off',
       'unicorn/prefer-object-from-entries': 'off',
+      'unicorn/prefer-global-this': 'off',
+      'unicorn/consistent-existence-index-check': 'off',
 
       'unicorn/prevent-abbreviations': [
         'error',
@@ -137,6 +139,10 @@ export default [
       'sonarjs/cognitive-complexity': 'off',
       'sonarjs/no-duplicate-string': 'off',
       'sonarjs/no-nested-template-literals': 'off',
+      'sonarjs/no-misleading-array-reverse': 'off',
+      'sonarjs/prefer-read-only-props': 'off',
+      'sonarjs/no-nested-conditional': 'off',
+      'sonarjs/no-selector-parameter': 'off',
 
       'prettier/prettier': [
         2,
