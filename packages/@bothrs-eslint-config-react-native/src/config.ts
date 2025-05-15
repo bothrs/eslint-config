@@ -1,25 +1,41 @@
-import type { Linter } from 'eslint'
+import baseConfig from '../../@bothrs-eslint-config/src/config'
+import reactBaseConfig from '../../@bothrs-eslint-config-react/src/config'
+import eslintConfigPrettier from 'eslint-config-prettier'
 
-module.exports = {
-  extends: [
-    '@bothrs/eslint-config',
-    '@bothrs/eslint-config-react',
-    'plugin:react-native-a11y/all',
-    'prettier',
-  ],
+import { FlatCompat } from '@eslint/eslintrc'
+import { fileURLToPath } from 'url'
+import path from 'path'
 
-  env: {
-    es2022: true,
-  },
+import globals from 'globals'
 
-  overrides: [
-    {
-      files: ['**/*.{js,jsx,ts,tsx}'],
-      plugins: ['react-native', '@react-native-community'],
-      env: {
+import reactNativePlugin from 'eslint-plugin-react-native'
+import reactNativeCommunityPlugin from '@react-native-community/eslint-config'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+const compat = new FlatCompat({
+  baseDirectory: __dirname,
+})
+
+export default [
+  ...baseConfig,
+  ...reactBaseConfig,
+
+  ...compat.extends('plugin:react-native-a11y/all'),
+
+  {
+    files: ['**/*.{js,jsx,ts,tsx}'],
+    plugins: {
+      'react-native': reactNativePlugin,
+      '@react-native-community': reactNativeCommunityPlugin,
+    },
+    languageOptions: {
+      globals: {
         'react-native/react-native': true,
       },
-      rules: {},
     },
-  ],
-} as Linter.BaseConfig
+    rules: {},
+  },
+
+  eslintConfigPrettier,
+]

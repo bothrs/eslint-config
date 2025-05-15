@@ -1,8 +1,6 @@
-import type { Linter } from 'eslint'
-import globals from 'globals'
-
 import baseConfig from '../../@bothrs-eslint-config/src/config'
 import eslintConfigPrettier from 'eslint-config-prettier'
+import globals from 'globals'
 
 export default [
   ...baseConfig,
@@ -15,7 +13,6 @@ export default [
         ...globals.es2021,
       },
     },
-    rules: {},
   },
   eslintConfigPrettier,
-] satisfies Linter.FlatConfig[]
+]

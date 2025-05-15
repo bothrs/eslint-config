@@ -1,14 +1,14 @@
-import type { Linter } from 'eslint'
+import baseConfig from '../../@bothrs-eslint-config/src/config'
+import eslintConfigPrettier from 'eslint-config-prettier'
 import globals from 'globals'
 
-import baseConfig from '../../@bothrs-eslint-config/src/config'
 import pluginReact from 'eslint-plugin-react'
 import pluginReactHooks from 'eslint-plugin-react-hooks'
 import pluginJsxA11y from 'eslint-plugin-jsx-a11y'
-import eslintConfigPrettier from 'eslint-config-prettier'
 
 export default [
   ...baseConfig,
+
   {
     files: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
     plugins: {
@@ -46,5 +46,6 @@ export default [
       },
     },
   },
+
   eslintConfigPrettier,
-] satisfies Linter.FlatConfig[]
+]

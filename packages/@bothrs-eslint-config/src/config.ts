@@ -1,55 +1,26 @@
-import type { Linter } from 'eslint'
-import eslintJs from '@eslint/js'
-import globals from 'globals'
-
-import pluginImport from 'eslint-plugin-import'
-import pluginNoSecrets from 'eslint-plugin-no-secrets'
-import pluginPrettier from 'eslint-plugin-prettier'
-import eslintConfigPrettier from 'eslint-config-prettier'
-import pluginSonarjs from 'eslint-plugin-sonarjs'
-import pluginUnicorn from 'eslint-plugin-unicorn'
+import js from '@eslint/js'
+import importPlugin from 'eslint-plugin-import'
+import noSecrets from 'eslint-plugin-no-secrets'
+import prettierPluginRecommended from 'eslint-plugin-prettier/recommended'
+import sonarjs from 'eslint-plugin-sonarjs'
+import unicorn from 'eslint-plugin-unicorn'
+import comments from '@eslint-community/eslint-plugin-eslint-comments/configs'
 
 export default [
-  eslintJs.configs.recommended,
-  // eslintCommentsConfigs.recommended,
-  pluginSonarjs.configs.recommended,
-  pluginUnicorn.configs.recommended,
+  js.configs.recommended,
+  unicorn.configs.recommended,
+  sonarjs.configs.recommended,
+  comments.recommended,
+  importPlugin.flatConfigs.recommended,
 
   {
     plugins: {
-      import: pluginImport,
+      'no-secrets': noSecrets,
     },
-    settings: {
-      'import/resolver': {
-        node: true,
-      },
-    },
-    rules: {
-      'import/no-unresolved': 'error',
-      'import/named': 'error',
-      'import/namespace': 'error',
-      'import/default': 'error',
-      'import/export': 'error',
-    },
-  },
 
-  {
-    files: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
-    languageOptions: {
-      ecmaVersion: 2022,
-      sourceType: 'module',
-      globals: {
-        ...globals.es2021,
-      },
-    },
-    plugins: {
-      'no-secrets': pluginNoSecrets,
-      prettier: pluginPrettier,
-    },
     rules: {
       'sort-keys': 'off',
       'sort-vars': ['error'],
-
       'unicorn/consistent-function-scoping': 'off',
       'unicorn/import-style': 'off',
       'unicorn/no-array-callback-reference': 'off',
@@ -61,6 +32,7 @@ export default [
       'unicorn/prefer-module': 'off',
       'unicorn/prefer-node-protocol': 'off',
       'unicorn/prefer-object-from-entries': 'off',
+
       'unicorn/prevent-abbreviations': [
         'error',
         {
@@ -78,15 +50,20 @@ export default [
           },
         },
       ],
+
       'unicorn/filename-case': [
         'error',
         {
-          cases: { kebabCase: true, pascalCase: true },
+          cases: {
+            kebabCase: true,
+            pascalCase: true,
+          },
+
           ignore: [
-            /\w+.(spec|test).([jt])sx?$/,
-            /\w+.styled.([jt])sx?$/,
-            /\w+.([jt])s$/,
-            /^use([A-Z])\w+.(j|t)sx?$/,
+            '/\\w+.(spec|test).([jt])sx?$/',
+            '/\\w+.styled.([jt])sx?$/',
+            '/\\w+.([jt])s$/',
+            '/^use([A-Z])\\w+.(j|t)sx?$/',
           ],
         },
       ],
@@ -94,21 +71,40 @@ export default [
       'import/default': 'off',
       'import/no-default-export': ['warn'],
       'import/no-named-as-default-member': 'off',
+
       'import/extensions': [
         'error',
-        'ignorePackages',
-        { js: 'never', jsx: 'never', ts: 'never', tsx: 'never' },
+        'always',
+        {
+          js: 'never',
+          jsx: 'never',
+          ts: 'never',
+          tsx: 'never',
+        },
       ],
+
       'import/order': [
         'error',
         {
-          alphabetize: { order: 'asc', caseInsensitive: true },
+          alphabetize: {
+            order: 'asc',
+            caseInsensitive: true,
+          },
+
           'newlines-between': 'always',
           warnOnUnassignedImports: true,
+
           pathGroups: [
-            { pattern: '~*', group: 'internal' },
-            { pattern: '~*/**', group: 'internal' },
+            {
+              pattern: '~*',
+              group: 'internal',
+            },
+            {
+              pattern: '~*/**',
+              group: 'internal',
+            },
           ],
+
           groups: [
             ['external', 'builtin'],
             'internal',
@@ -120,6 +116,7 @@ export default [
           ],
         },
       ],
+
       'no-restricted-imports': [
         'error',
         {
@@ -142,7 +139,7 @@ export default [
       'sonarjs/no-nested-template-literals': 'off',
 
       'prettier/prettier': [
-        'error',
+        2,
         {
           arrowParens: 'always',
           endOfLine: 'lf',
@@ -154,12 +151,14 @@ export default [
           trailingComma: 'es5',
           useTabs: false,
         },
-        { usePrettierrc: false },
+        {
+          usePrettierrc: false,
+        },
       ],
 
-      'nonblock-statement-body-position': 'error',
+      'nonblock-statement-body-position': 2,
     },
   },
 
-  eslintConfigPrettier, // MUST BE LAST to turn off conflicting rules
-] satisfies Linter.FlatConfig[]
+  prettierPluginRecommended,
+]

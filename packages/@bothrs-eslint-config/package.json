@@ -28,13 +28,13 @@
     "bothrs"
   ],
   "version": "3.1.2",
-  "main": "index.js",
+  "main": "index.mjs",
   "files": [
-    "index.js"
+    "index.mjs"
   ],
   "license": "MIT",
   "scripts": {
-    "build": "esbuild src/config.ts --bundle --platform=node --packages=external --outfile=index.js --format=cjs",
+    "build": "esbuild src/config.ts --bundle --platform=node --packages=external --outfile=index.mjs --format=esm",
     "lint": "eslint specs/samples/vanilla.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
@@ -43,7 +43,6 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^10.1.5",
-    "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-no-secrets": "^2.2.1",
     "eslint-plugin-prettier": "^5.4.0",
@@ -53,5 +52,8 @@
   "peerDependencies": {
     "eslint": "9",
     "prettier": "3"
+  },
+  "devDependencies": {
+    "@eslint-community/eslint-plugin-eslint-comments": "^4.5.0"
   }
 }

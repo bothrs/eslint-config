@@ -25,13 +25,13 @@
     "bothrs"
   ],
   "version": "3.1.2",
-  "main": "index.js",
+  "main": "index.mjs",
   "files": [
-    "index.js"
+    "index.mjs"
   ],
   "license": "MIT",
   "scripts": {
-    "build": "esbuild src/config.ts --bundle --platform=node --packages=external --outfile=index.js --format=cjs",
+    "build": "esbuild src/config.ts --bundle --platform=node --packages=external --outfile=index.mjs --format=esm",
     "lint": "eslint specs/samples/vanilla.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
@@ -39,7 +39,7 @@
     "test:verbose": "jest --verbose"
   },
   "dependencies": {
-    "@bothrs/eslint-config": "^2.3.4"
+    "@bothrs/eslint-config": "^3.1.2"
   },
   "peerDependencies": {
     "eslint": "9",
