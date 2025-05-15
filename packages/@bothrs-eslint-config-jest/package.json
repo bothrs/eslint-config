@@ -24,7 +24,7 @@
     "jest",
     "bothrs"
   ],
-  "version": "3.1.5",
+  "version": "3.1.6",
   "main": "index.mjs",
   "files": [
     "index.mjs"
@@ -39,7 +39,7 @@
     "test:verbose": "jest --verbose"
   },
   "dependencies": {
-    "@bothrs/eslint-config": "^3.1.4",
+    "@bothrs/eslint-config": "^3.1.6",
     "eslint-plugin-jest": "^28.11.0"
   },
   "peerDependencies": {

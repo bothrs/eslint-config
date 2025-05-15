@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.6](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-typescript@3.1.5...@bothrs/eslint-config-typescript@3.1.6) (2025-05-15)
+
+### Bug Fixes
+
+- updates to rules and version fix ([3de001f](https://github.com/bothrs/eslint-config/commit/3de001f1055e14087a7611336cc5809f703b0901))
+
 ## [3.1.5](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-typescript@3.1.2...@bothrs/eslint-config-typescript@3.1.5) (2025-05-15)
 
 ### Bug Fixes

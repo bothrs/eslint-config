@@ -24,7 +24,7 @@
     "typescript",
     "bothrs"
   ],
-  "version": "3.1.5",
+  "version": "3.1.6",
   "main": "index.mjs",
   "files": [
     "index.mjs"
@@ -39,7 +39,7 @@
     "test:verbose": "jest --verbose"
   },
   "dependencies": {
-    "@bothrs/eslint-config": "^3.1.4",
+    "@bothrs/eslint-config": "^3.1.6",
     "@typescript-eslint/eslint-plugin": "^8.32.0",
     "@typescript-eslint/parser": "^8.32.0",
     "eslint-import-resolver-typescript": "^4.3.4",
