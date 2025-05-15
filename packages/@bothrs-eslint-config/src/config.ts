@@ -82,6 +82,7 @@ export default [
           jsx: 'never',
           ts: 'never',
           tsx: 'never',
+          mjs: 'never',
         },
       ],
 
@@ -143,6 +144,9 @@ export default [
       'sonarjs/prefer-read-only-props': 'off',
       'sonarjs/no-nested-conditional': 'off',
       'sonarjs/no-selector-parameter': 'off',
+      'sonarjs/no-nested-functions': 'warn',
+      'sonarjs/file-uploads': 'warn',
+      'sonarjs/content-length': 'warn',
 
       'prettier/prettier': [
         2,
