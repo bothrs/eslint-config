@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.7](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-react@3.1.6...@bothrs/eslint-config-react@3.1.7) (2025-05-15)
+
+**Note:** Version bump only for package @bothrs/eslint-config-react
+
 ## [3.1.6](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config-react@3.1.4...@bothrs/eslint-config-react@3.1.6) (2025-05-15)
 
 ### Bug Fixes

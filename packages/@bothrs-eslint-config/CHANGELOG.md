@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.7](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config@3.1.6...@bothrs/eslint-config@3.1.7) (2025-05-15)
+
+### Bug Fixes
+
+- update rules ([d280052](https://github.com/bothrs/eslint-config/commit/d280052ade11693431538b99890607af17894eb0))
+
 ## [3.1.6](https://github.com/bothrs/eslint-config/compare/@bothrs/eslint-config@3.1.4...@bothrs/eslint-config@3.1.6) (2025-05-15)
 
 ### Bug Fixes

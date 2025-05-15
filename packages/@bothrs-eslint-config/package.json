@@ -27,7 +27,7 @@
     "eslint-config",
     "bothrs"
   ],
-  "version": "3.1.6",
+  "version": "3.1.7",
   "main": "index.mjs",
   "files": [
     "index.mjs"
